@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+.Back-box {
+    justify-content: center;
+}
+body {
+    margin: 0 auto;
+}
+.main-box {
+    max-width: 1200px;
+    height: 2100px;
+    margin: 0 auto;
+    padding-top: 35px;
+    background-image: url(../img/Background-1.png);
+    background-repeat: no-repeat;
+}
+.info-site {
+    height: 655px;
+    margin: 0px 104px 0px 84px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.map {
+    display: flex;
+    list-style: none;
+}
+ul.map a {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #c0bfc5;
+    text-decoration: none;
+    padding: 10px;
+}
+ul.map a:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.info {
+    padding-top: 135px;
+    padding-left: 25px;
+    max-width: 480px;
+    max-height: 275px;
+}
+h1 {
+    text-transform: uppercase;
+    margin: 0% auto;
+    font-size: 95px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 80px;
+    padding-bottom: 35px;
+    color: white;
+}
+.title-page {
+    color: #130e27;
+}
+.text-to-the-title {
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+.services {
+    padding-top: 280px;
+    padding-bottom: 30px;
+    color: #130e27;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.our {
+    color: red;
+}
+.text {
+    width: 175px;
+    height: 50px;
+    margin: 0 30px 0 30px;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 20px;
+
+}
+i.fa {
+    padding-left: 70px;
+    font-size: 130px;
+    justify-content: center;
+}
+.story {
+    width: 1200px;
+    height: 120px;
+    display: flex;
+    background-color: #130e27;
+    margin: 0 0 0 -84px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.white-text {
+    margin: 0;
+    color: white;
+    font-size: 23px;
+    padding-top: 10px;
+    padding-left: 90px;
+    width: 770px;
+    height: 50px;
+}
+.our-story {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin: 0px 90px 0px 0px;
+    padding: 15px 75px 0px 75px;
+    color: white;
+}
+.our-story:hover {
+    background-color: red;
+    border-radius: 5px;
+    height: 80px;
+    cursor: pointer;
+}
+h2.pricing {
+    display: block;
+    text-align: center;
+    color: #130e27;
+}
+.price-title {
+    display: flex;
+    justify-content: center;
+}
+ul.open-tabel-price {
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+    line-height: 45px;
+    margin: 0px 50px 0px 50px;
+}
+.price {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.end {
+    padding-top: 75px;
+    background-color: white;
+}
+.the-end {
+    margin: 0px 0px 0px -84px;
+    display: flex;
+    width: 1200px;
+    height: 322px;
+    color: white;
+    background-color: #130e27;
+    font-size: 25px;
+    padding-top: 150px;
+    justify-content: center;
+}
+.end-red {
+    color: red;
+}
+.copylogo {
+    padding-left: 50px;
+}
